@@ -1,0 +1,36 @@
+.email-input {
+    text-transform: uppercase;
+    width: 360px;
+    height: 40px;
+    border:  1px solid#666666 ;
+    color: white;
+    margin-bottom: 10px;
+    margin-right: 20px;
+    background: transparent;
+}
+.email-section{
+    display: flex;
+}
+
+.hr-item {
+    background-color: bisque;
+    width: 170px;
+    display: none;
+}
+
+.subscribe-btn {
+    background-color: #FFFFFF;
+    text-transform: uppercase;
+    width: 166px;
+    height: 40px;
+    border: none;
+    font-size: 12PX;
+    font-weight: 600;
+    line-height: 1.6;
+    color: #33333A;
+    padding: 10px 18.4px ;
+}
+.subscribe-btn:hover , .email-input:hover{
+    color: white;
+    background-color: black;
+}

@@ -1,0 +1,28 @@
+.Wrap{
+     display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    width: 90%;
+    margin: auto;
+    
+}
+.address{
+    width: 230px;
+    height: 60px;
+    color:#33333A;
+    font-weight: 400;
+    font-size: 42px;
+    margin-top: 62px;
+    text-align: center;
+}
+.image_seen{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 43px;
+    margin-top: 28px;
+    margin-bottom: 60px;
+
+}

@@ -1,0 +1,10 @@
+
+@media (min-width:992px){
+    .NavBar{
+        height: 80px;
+    }
+}
+.MainNavBar{
+    width: 90%;
+    margin: auto;
+}

@@ -1,0 +1,37 @@
+
+.about_wrapper{
+    width: 90%;
+    margin: auto;
+}
+
+
+
+.about_h1 {
+    font-size: 42px;
+    font-weight: 400;
+    list-style: 60;
+    text-align: center;
+    color: #33333A;
+    padding-top: 62px;
+    padding-bottom: 28px;
+}
+.about_wrapper{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+
+}
+.photo{
+    width: 555px;
+   
+}
+.right_side{
+    width: 490px;
+    
+}
+.right_side p{
+    font-size: 18px;
+    margin-top: 0;
+}
+

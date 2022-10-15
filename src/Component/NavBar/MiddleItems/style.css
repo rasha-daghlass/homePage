@@ -1,0 +1,15 @@
+.NavBarItem {
+    color: black;
+    margin-right: 30px;
+    margin-top: 7px;
+    text-transform: uppercase;
+}
+.hrNavBar{
+    border-top: 1px solid #FF5E1B;
+	box-shadow: 0 20px 20px -20px #333;
+}
+
+.NavBarItem:hover {
+    color: #FF5E1B;
+}
+
