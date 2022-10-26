@@ -1,0 +1,55 @@
+
+.container{
+    display: flex;
+}
+.btnWrapper{
+    border: 1px solid gray;
+    width:20%;
+    box-sizing: border-box;
+    height: 5%;
+
+}
+.btn{
+    width: 33.3%;
+    padding: 8px 8px;
+    border: none;
+    box-sizing: border-box;
+}
+.btn2{
+    width: 33.3%;
+    padding: 8px 8px;
+    border: none;
+}
+.btn:hover{
+    background-color: orangered;
+    text-decoration: solid;
+    color: white;
+}
+.add {
+    width: 30%;
+    
+}
+.cart{
+    background-color: #33333A;
+    color: white;
+    padding: 8px 20px;
+    letter-spacing: 1px;
+    border: none;
+    line-height: 1.667;
+    display: flex;
+    flex-wrap: nowrap;}
+
+.wishlist{
+    padding: 8px 20px;
+    border: none;
+    background-color: white;
+    border-bottom: 2px solid #33333A ;
+}
+
+
+/* @media screen and (max-width:760px) {
+    .cart{
+        width:20% ;
+    }
+
+} */

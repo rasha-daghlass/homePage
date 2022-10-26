@@ -1,0 +1,37 @@
+.main{
+    margin-bottom:0px;
+}
+
+.description{
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.row{
+    display: flex;
+    padding: 5px 10px 5px 0px;
+    border-bottom: 1px solid rgb(202, 202, 202);
+    margin: 0px;
+}
+.header{
+    width: 50%;
+    margin: 0px;
+}
+.paragraph{
+width: 50%;
+margin: 0;
+}
+.quantity{
+    margin-top: 10px;
+}
+.quantity2{
+    font-size: 14px ;
+    color:rgb(126, 124, 124);
+}
+
+/* @media screen and (max-width:768px) {
+
+
+} */

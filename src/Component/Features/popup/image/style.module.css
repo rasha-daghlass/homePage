@@ -1,0 +1,23 @@
+
+
+.imgleft{
+    width:12%;
+}
+.imgleft img{
+    width: 100%;
+    height: 68px;
+    padding-bottom: 10px;
+}
+@media screen and (max-width:768px) {
+    .imgleft{
+        display: flex;
+        justify-content: space-between;
+        width: 70%;
+        margin: auto;
+    }
+    .imgleft img{
+        width: 15%;
+
+    }
+
+}

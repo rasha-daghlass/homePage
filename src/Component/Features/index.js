@@ -1,5 +1,8 @@
 import style from"./style.module.css";
-import React from "react";
+import React ,{useState} from "react";
+import Modal from 'react-modal'
+import PopUp from "./popup";
+
 
 const featureItem = [
   {
@@ -64,9 +67,12 @@ const featureItem = [
 
 export const Features = () => {
   const [...list]= featureItem;
-  
- 
-  
+  const [modalIsOpen, setModalIsOpen] = useState(false)
+
+  const updatePopUp=()=>{
+    setModalIsOpen(false)
+  }
+
   return (
     <div  className={style.feature_wrap}>
     <h1 className={style.featured_h1}>Featured</h1>
@@ -77,12 +83,10 @@ export const Features = () => {
             <div className={style.inner_flex}>
             <img className={style.item_picture} src={item.imgSrc} alt="picture" />
             {item.new  ? <p className="prop_new">NEW</p> : "" }
-                
-      
-             
-          
             <div className={style.middle}>
-               <button className={style.image_hover}>QUICK VIEW</button>
+               <button className={style.image_hover} onClick={()=>{setModalIsOpen(true)}}>QUICK VIEW</button>
+               <PopUp modalIsOpen={modalIsOpen} updatePopUp={updatePopUp} />
+               
             </div>
             <p className={style.title}>{item.title1}</p>
             <p className={style.price}>{item.price}</p>
