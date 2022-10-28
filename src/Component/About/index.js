@@ -6,7 +6,7 @@ export const About = () => {
     <div className="main">
       <h1 className="about_h1">About Matter</h1>
       <div className="about_wrapper">
-        <div>
+        <div className="border1">
           <img className="photo" src="./images/fc26b70da783a49001cf63c38ed1ad5c5044b323.png" alt="" />
         </div>
         <div className="right_side">

@@ -18,16 +18,17 @@ const QuantityCounter = () => {
     <div className={style.container}>
       <div className={style.btnWrapper}>
           <button onClick={handleDecrement}  className={style.btn}>-</button>
-          <button className={style.btn2} style={{backgroundColor: "white"}}>{counter}</button>
+          <i className={style.btn2} style={{backgroundColor: "white"}}>{counter}</i>
           <button onClick={handleIncrement} className={style.btn}>+</button>
       </div> 
    
 
-       <div className={style.add}>
-        <button  className={style.cart} >ADD TO CART </button>
+        <div className={style.add}>
+        <button  className={style.addcart} >add to cart </button>
       </div>
+      
       <div className={style.add2}>
-        <button  className={style.wishlist} >ADD TO WISHLIST </button>
+        <button  className={style.wishlist} >add to wishlist </button>
       </div>   
 
     </div>

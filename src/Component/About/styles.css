@@ -17,17 +17,19 @@
 }
 .about_wrapper{
     display: flex;
-    justify-content: center;
-    gap: 40px;
+    justify-content: space-between;
     flex-wrap: wrap;
 
 }
+.border1{
+    width: 50%;
+}
 .photo{
-    width: 555px;
+    width: 100%;
    
 }
 .right_side{
-    width: 490px;
+    width: 46%;
     
 }
 .right_side p{
@@ -35,3 +37,13 @@
     margin-top: 0;
 }
 
+@media screen  and (max-width:1100px){
+    .border1{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .right_side{
+        margin-left: 20px;
+    }
+    
+}
