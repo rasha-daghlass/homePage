@@ -4,13 +4,13 @@
     width:12%;
 }
 
-.imgleft button{
+.imgleft .button{
     width: 68px;
     height: 68px;
     margin-bottom: 20px;
     border: none;
 }
-button:hover{
+.button:hover{
     border: 2px solid orangered;
 }
 @media screen and (max-width:768px) {

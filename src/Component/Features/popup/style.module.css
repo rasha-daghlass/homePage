@@ -29,6 +29,10 @@
 .container{
     margin: 0px 26px 0px 29px;
 }
+.heading{
+    display: flex;
+    justify-content: space-between;
+}
 @media screen and (max-width:768px) {
     .main {
         flex-direction: column;
