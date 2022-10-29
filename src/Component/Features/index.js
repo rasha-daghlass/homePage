@@ -1,6 +1,5 @@
 import style from "./style.module.css";
 import React, { useState } from "react";
-import Modal from "react-modal";
 import data from "./data.json";
 import PopUp from "./popup";
 export const Features = () => {

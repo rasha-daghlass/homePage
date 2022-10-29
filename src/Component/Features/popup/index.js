@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import Modal from "react-modal";
 import Image from "./image";
 import style from "./style.module.css";
@@ -7,6 +7,7 @@ import data from "../data.json";
 
 export const PopUp = ({ modalIsOpen, updatePopUp ,product}) => {
   const {title,price,images,thumbnail,rating}=product
+  const [rightImage, setRightImage]=useState({thumbnail})
   
   return (
     <Modal
@@ -30,13 +31,13 @@ export const PopUp = ({ modalIsOpen, updatePopUp ,product}) => {
       </div>
       <div className={style.main}>
         <div className={style.left}>
-          <Image images={images} />
-          <div className={style.imgright}>
+          <Image images={images} thumbnail={thumbnail}  />
+          {/* <div className={style.imgright}>
             <img
               src={thumbnail}
               alt=""
             />
-          </div>
+          </div> */}
         </div>
         <div className={style.right}>
           <div className={style.container}>

@@ -1,5 +1,6 @@
 import React,{useState} from 'react'
 import style from "./style.module.css"
+// import {CiSquareQuestion} from "react-icons/Ci";
 
 const QuantityCounter = () => {
   const [counter,setCounter]=useState(1)
@@ -26,6 +27,7 @@ const QuantityCounter = () => {
         <div className={style.add}>
         <button  className={style.addcart} >add to cart </button>
       </div>
+      {/* <CiSquareQuestion/> */}
       
       <div className={style.add2}>
         <button  className={style.wishlist} >add to wishlist </button>
