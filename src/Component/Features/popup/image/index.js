@@ -11,8 +11,8 @@ const Image = ({ images,thumbnail }) => {
     <>  <div className={style.imgleft}>
     {images.map((item,i) => {
       return (
-        <div className={rasha ===item? style.border : style.button} >
-          <img className={style.innerImg} src={item} onClick={()=>handleClick(i)}></img>
+        <div className={style.pointer} >
+          <img className={rasha ===item? style.border : style.button}src={item} onClick={()=>handleClick(i)}></img>
         </div>
       );
     })}

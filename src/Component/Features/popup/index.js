@@ -32,12 +32,6 @@ export const PopUp = ({ modalIsOpen, updatePopUp ,product}) => {
       <div className={style.main}>
         <div className={style.left}>
           <Image images={images} thumbnail={thumbnail}  />
-          {/* <div className={style.imgright}>
-            <img
-              src={thumbnail}
-              alt=""
-            />
-          </div> */}
         </div>
         <div className={style.right}>
           <div className={style.container}>

@@ -28,9 +28,15 @@
   text-decoration: solid;
   color: white;
 }
+.question{
+  margin-left: 10px;
+  margin-top: 5px;
+  font-size: 34px;
+}
 .add,
 .add2 {
   width: 30%;
+  font-size: 1vw;
 }
 .addcart {
   background-color: #33333a;
@@ -46,6 +52,8 @@
   opacity: 0.7;
 }
 .wishlist {
+  display: flex;
+  flex-wrap: wrap;
   padding: 8px 20px;
   border: none;
   background-color: white;
@@ -54,12 +62,4 @@
 .wishlist:hover {
   background-color: #33333a;
   opacity: 0.7;
-}
-
-@media screen and (max-width: 1100px) {
-  .add,
-  .add2 {
-    /* width:40% ; */
-    border: 1px solid orange;
-  }
 }
