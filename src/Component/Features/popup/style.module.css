@@ -39,11 +39,45 @@
 .rating{
   color: #666666;
   font-size: 16px;
+  margin-left: 20px;
 }
 .title{
   color: #030303;
   font-size: 24px;
 }
+
+button{
+  border: none;
+  background-color: white;
+  cursor: pointer;
+}
+.theWrapper{
+  display: flex;
+  flex-direction: row;
+justify-content: space-between;}
+/* .rating a,
+.rating label {
+  float: right;
+  color: #aaa;
+  text-decoration: none;
+} 
+.rating label:hover ~ label,
+.rating input:focus ~ label,
+.rating label:hover,
+.rating a:hover,
+.rating a:hover ~ a,
+.rating a:focus,
+.rating a:focus ~ a {
+  color: orange;
+  cursor: pointer;
+} */
+.checked , .checked:visited {
+  color:#FF6008;
+  text-decoration: none;
+  padding-left:5px;
+  
+}
+
 @media screen and (max-width: 768px) {
   .main {
     flex-direction: column;

@@ -11,7 +11,6 @@ const Details = ({product}) => {
         <p className={style.description}>
           {description} 
         </p>
-        {/* <button className={style.seeMore}>SEE MORE</button> */}
         <div className={style.container}>
         <div className={style.row}>
           <h6 className={style.header}>Category</h6>

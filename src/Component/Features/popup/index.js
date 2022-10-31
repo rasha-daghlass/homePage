@@ -24,9 +24,9 @@ export const PopUp = ({ modalIsOpen, updatePopUp ,product}) => {
       <div className={style.wrapper}>
         <div className={style.title}>
           <h5>{title}</h5>
-          <i class="fal fa-times fa-2x" onClick={updatePopUp}>
+          <button class="fal fa-times fa-2x"  onClick={updatePopUp}>
             {" "}
-          </i>
+          </button>
         </div>
       </div>
       <div className={style.main}>
@@ -38,7 +38,18 @@ export const PopUp = ({ modalIsOpen, updatePopUp ,product}) => {
             <h5 className={style.title}>{title} </h5>
             <div className={style.heading}>
               <h5 className={style.price}>{price}.00$ </h5>
+              <div className={style.theWrapper}>
+              <div className={rating} >
+                <a className={style.checked} href="#5 ">★</a>
+                <a className={style.checked} href="#4">★</a>
+                <a className={style.checked} href="#3">★</a>
+                <a className={style.checked} href="#2">★</a>
+                <a className={style.checked} href="#1">★</a>
+                
+                </div>
               <h5 className={style.rating}> {rating} of 5</h5>
+              </div>
+              
             </div>
             <hr />
 
