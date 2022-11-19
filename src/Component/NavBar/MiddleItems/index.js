@@ -2,7 +2,7 @@ import "./style.css";
 import React from "react";
 import Nav from "react-bootstrap/Nav";
 
-const NavBarItems = ["Shop", "FABRIC", "Journal", "About"];
+const NavBarItems = ["SHOP", "FABRIC", "JOURNAL", "ABOUT"];
 const MiddleNavBarItems = () => {
   return (
     <>
@@ -14,7 +14,8 @@ const MiddleNavBarItems = () => {
               <Nav.Link className=".NavBarItem">{NavItem}</Nav.Link>
             </>
           );
-        })}
+        }
+        )}
       </Nav>
     </>
   );

@@ -1,0 +1,47 @@
+.name{
+   opacity: 1;
+  color: rgba(3, 3, 3, 1);
+  font-family: "ProximaNova-Light";
+  font-size: 18px;
+  font-weight: 300;
+  font-style: normal;
+  letter-spacing: 0px;
+  text-align: left;
+  line-height: 40px;
+}
+.paragraph{
+  flex-wrap: nowrap;
+
+}
+
+.wrapper {
+  width: 85%;
+  margin: auto;
+  border: 1px solid green;
+
+}
+.container {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+.sort {
+  display: flex;
+  width: 25%;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid red;
+}
+
+.sort p {
+  opacity: 1;
+  color: rgba(51, 51, 51, 1);
+  font-family: "VLNewParisHeadline";
+  font-size: 24px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: 0px;
+  text-align: left;
+  line-height: 40px;
+  margin-right: 10px;
+}

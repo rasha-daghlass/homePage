@@ -9,12 +9,17 @@ import Video from "./Component/vedio/index"
 import Features from "./Component/Features/index"
 import Seen from "./Component/SeenOn/index"
 import Explore from "./Component/Explore/index"
-
-
+import ProductList from "././views/ProductList"
+import { Router } from "./router";
+import Test from "./Component/test-api";
 function App() {
+
   return (
-    <>
-    <Header/>
+    <div>
+      {/* <Test/> */}
+      <Router/>
+    {/* <ProductList/> */}
+    {/* <Header/>
     <NavScrollExample/>
     <SliderPicture/>
     <Features/>
@@ -23,10 +28,7 @@ function App() {
     <Shop/>
     <Video/>
     <Seen/>
-    <Footer/>
-    </>
-    
-  );
-}
-
+    <Footer/> */}
+    </div>);
+  }
 export default App;

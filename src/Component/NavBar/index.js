@@ -5,9 +5,7 @@ import MiddleNavBarItems from "./MiddleItems";
 import RightNavBarItems from "./RightItems";
 import  "./style.css";
 import NavDropdown from 'react-bootstrap/NavDropdown';
-
-
-function NavScrollExample() {
+export const NavScrollExample=()=> {
   return (
     <div className="MainNavBar">
     <Navbar className="NavBar" bg="white" expand="lg">
